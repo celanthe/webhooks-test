@@ -1,0 +1,11 @@
+@ACCESS_TOKEN = 70xiktlylpvfyx3w5ha9azxtgzd3dxz
+@CLIENT_ID = o4wiubwf6tdle7st8qpe0lzouytwet3
+@STORE_HASH = t8toivbz1b
+
+###
+
+GET https://api.bigcommerce.com/stores/{{STORE_HASH}}/v3/catalog/products
+X-Auth-Token: {{ACCESS_TOKEN}}
+X-Auth-Client: {{CLIENT_ID}}
+Content-Type: application/json
+Accept: application/json
